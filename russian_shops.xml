@@ -3687,6 +3687,7 @@
         <key key="location" value="indoor" />
         <key key="power" value="substation" />
         <key key="substation" value="minor_distribution" />
+        <key key="utility" value="power" />
         <preset_link preset_name="Address" />
       </item>
       <item name="Minor power substation (street cabinet)" ru.name="Трансформаторная подстанция (ТП, потребительская; шкаф)" type="node,closedway,multipolygon" icon="https://upload.wikimedia.org/wikipedia/commons/d/d0/Emoji_u26a1.svg" preset_name_label="true">
@@ -3771,6 +3772,7 @@
         <key key="pipeline" value="substation" />
         <key key="substance" value="hot_water" />
         <key key="substation" value="distribution" />
+        <key key="utility" value="heating" />
         <preset_link preset_name="Address" />
       </item>
     </group>
