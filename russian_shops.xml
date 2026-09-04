@@ -2551,23 +2551,6 @@
         <link href="https://iledebeaute.ru/company/shops/moscow/map/" text="Official website (place locator)" ru.text="Ссылка на сайт (часы работы, координаты и т.п.)" />
         <reference ref="level_wheelchair_address" />
       </item>
-      <item name="Korablik" ru.name="Кораблик" type="node,closedway,multipolygon" preset_name_label="true">
-        <space />
-        <combo key="contact:phone" text="Phone number" values="+7 495 6630343" default="+7 800 7750343" />
-        <combo key="opening_hours" text="Opening Hours" values="24/7,Mo-Su 08:00-23:00" />
-        <key key="brand" value="Кораблик" />
-        <key key="contact:email" value="shop@korablik.ru" />
-        <key key="contact:facebook" value="https://www.facebook.com/korablik.ru" />
-        <key key="contact:instagram" value="https://www.instagram.com/korablik.shop" />
-        <key key="contact:vk" value="https://vk.com/korablik.shops" />
-        <key key="contact:website" value="https://www.korablik.ru" />
-        <key key="name" value="Кораблик" />
-        <key key="name:ru" value="Кораблик" />
-        <key key="operator" value="ООО &quot;Кораблик-Р&quot;" />
-        <key key="shop" value="toys" />
-        <link href="https://www.korablik.ru/shops/" text="Official website (place locator)" ru.text="Ссылка на сайт (часы работы, координаты и т.п.)" />
-        <reference ref="wheelchair_address" />
-      </item>
       <item name="Lensmaster" ru.name="Линзмастер" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="contact:phone" text="Phone number" default="+7 800 7707567" />
