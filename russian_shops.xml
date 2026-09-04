@@ -1157,7 +1157,7 @@
         <link href="https://www.verno-info.ru/shops" text="Official website (place locator)" ru.text="Ссылка на сайт (часы работы, координаты и т.п.)" />
         <reference ref="wheelchair_address" />
       </item>
-      <item name="VkusWill" ru.name="ВкусВилл" type="node,closedway,multipolygon" preset_name_label="true">
+      <item name="Vkusvill" ru.name="ВкусВилл" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="contact:phone" text="Phone number" default="+7 495 6638602" />
         <combo key="opening_hours" text="Opening Hours" values="24/7,Mo-Su 09:00-21:00,Mo-Fr 09:00-22:00; Sa-Su 10:00-21:00" />
