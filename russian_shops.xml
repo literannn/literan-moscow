@@ -3,7 +3,7 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://josm.openstreetmap.de/tagging-preset-1.0 tagging-preset.xsd"
   author="literan and others"
-  version="2.0_2024-04-24_1"
+  version="2026.08.27_1"
   link="https://github.com/ruosm-presets/literan-moscow"
   icon="https://upload.wikimedia.org/wikipedia/commons/d/db/Twemoji_1f1f7-1f1fa.svg"
   shortdescription="Russian POIs"
@@ -227,6 +227,7 @@
         <combo key="contact:phone" text="Phone number" default="+7 800 7550003" />
         <key key="amenity" value="pharmacy" />
         <combo key="brand" text="Brand" values="Вита,Вита Экспресс,Вита Центральная" />
+        <key key="brand:wikidata" value="Q109810737" />
         <key key="contact:instagram" value="https://www.instagram.com/vita_express/" />
         <key key="contact:vk" value="https://vk.com/aptekivita" />
         <key key="contact:website" value="https://vitaexpress.ru" />
@@ -241,6 +242,7 @@
         <combo key="contact:phone" text="Phone number" values="+7 499 6536277,+7 812 4261584" default="+7 499 6536277" />
         <key key="amenity" value="pharmacy" />
         <key key="brand" value="Горздрав" />
+        <key key="brand:wikidata" value="Q126363868" />
         <key key="contact:email" value="info@gor-zdrav.ru" />
         <key key="contact:ok" value="https://ok.ru/group/57486617870381" />
         <key key="contact:vk" value="https://vk.com/gorzdrav" />
@@ -255,6 +257,8 @@
         <combo key="contact:phone" text="Phone number" default="+7 495 7907711" />
         <key key="amenity" value="pharmacy" />
         <key key="brand" value="Еаптека" />
+        <key key="brand:wikidata" value="Q110253378" />
+        <key key="brand:wikipedia" value="ru:Еаптека" />
         <key key="contact:telegram" value="https://t.me/formamag" />
         <key key="contact:vk" value="https://vk.com/eaptekaru" />
         <key key="contact:website" value="https://www.eapteka.ru" />
@@ -268,6 +272,7 @@
         <space />
         <key key="amenity" value="pharmacy" />
         <key key="brand" value="Живика" />
+        <key key="brand:wikidata" value="Q123165954" />
         <key key="contact:email" value="info@aptekazhivika.ru" />
         <key key="contact:website" value="http://zhivika.ru" />
         <key key="contact:ok" value="https://ok.ru/aptekazhivika" />
@@ -285,6 +290,7 @@
     <combo key="contact:phone" text="Phone number" default="+7 800 500 92 62" />
     <key key="amenity" value="pharmacy" />
     <key key="brand" value="Здравсити" />
+    <key key="brand:wikidata" value="Q120261818" />
     <key key="contact:telegram" value="https://t.me/zdravcity_official" />
     <key key="contact:vk" value="https://vk.com/zdravcity" />
     <key key="contact:website" value="https://zdravcity.ru" />
@@ -298,6 +304,7 @@
         <space />
         <key key="amenity" value="pharmacy" />
         <key key="brand" value="Магнит Аптека" />
+        <key key="brand:wikidata" value="Q120262563" />
         <combo key="contact:phone" text="Phone number" default="+7 800 2007803" />
         <key key="contact:website" value="https://apteka.magnit.ru/" />
         <key key="healthcare" value="pharmacy" />
@@ -326,6 +333,8 @@
         <combo key="contact:phone" text="Phone number" values="+7 495 7755000" default="+7 800 3333112" />
         <combo key="opening_hours" text="Opening Hours" values="24/7,Mo-Su 09:00-22:00,Mo-Fr 09:00-21:00; Sa-Su 10:00-19:00,Mo-Fr 09:00-20:00; Sa 10:00-20:00; Su 10:00-19:00" />
         <key key="brand" value="Ортека" />
+        <key key="brand:wikidata" value="Q62393660" />
+        <key key="brand:wikipedia" value="ru:Ортека" />
         <key key="contact:facebook" value="https://www.facebook.com/orteka.rus" />
         <key key="contact:instagram" value="https://www.instagram.com/orteka_rus" />
         <key key="contact:vk" value="https://vk.com/orteka_ru" />
@@ -392,6 +401,7 @@
         <combo key="contact:phone" text="Phone number" default="+7 800 5551115" />
         <key key="amenity" value="pharmacy" />
         <key key="brand" value="Столички" />
+        <key key="brand:wikidata" value="Q109717665" />
         <key key="contact:vk" value="https://vk.com/stolichki_official" />
         <key key="contact:website" value="https://stolichki.ru" />
         <key key="healthcare" value="pharmacy" />
@@ -405,6 +415,7 @@
         <reference ref="phone" />
         <key key="amenity" value="pharmacy" />
         <key key="brand" value="Столичные аптеки" />
+        <key key="brand:wikidata" value="Q139555187" />
         <key key="contact:email" value="info@sapteki.ru" />
         <key key="contact:website" value="https://www.sapteki.ru" />
         <key key="healthcare" value="pharmacy" />
@@ -442,10 +453,10 @@
         <combo key="contact:phone" text="Phone number" values="+7 495 5321313" default="+7 800 5501313" />
         <key key="amenity" value="doctors" />
         <key key="brand" value="Гемотест" />
+        <key key="brand:wikidata" value="Q123377862" />
         <key key="contact:email" value="client@gemotest.ru" />
         <key key="contact:facebook" value="https://www.facebook.com/gemotestlab" />
         <key key="contact:ok" value="https://ok.ru/gemotest" />
-        <key key="contact:skype" value="vrachgemotest" />
         <key key="contact:vk" value="https://vk.com/gemotestlab" />
         <key key="contact:website" value="https://www.gemotest.ru" />
         <key key="health_facility:type" value="laboratory" />
@@ -603,6 +614,8 @@
         <combo key="opening_hours" text="Opening Hours" values="24/7,Mo-Su 10:00-22:00,Mo-Fr 08:00-23:00; Sa-Su 09:00-21:00" />
         <key key="amenity" value="fast_food" />
         <key key="brand" value="Rostic's" />
+        <key key="brand:wikidata" value="Q3442874" />
+        <key key="brand:wikipedia" value="ru:Ростикс" />
         <key key="contact:vk" value="https://vk.com/rostics_official" />
         <key key="contact:website" value="https://rostics.ru" />
         <key key="cuisine" value="chicken" />
@@ -642,6 +655,7 @@
         <combo key="opening_hours" text="Opening Hours" values="Mo-Su 08:00-22:00,Mo-Th 10:00-22:00; Fr-Su 10:00-23:00" />
         <key key="amenity" value="cafe" />
         <key key="brand" value="Surf Coffee" />
+        <key key="brand:wikidata" value="Q110278756" />
         <key key="contact:email" value="team@surfcoffee.ru" />
         <key key="contact:instagram" value="https://www.instagram.com/surfcoffee.msk/" />
         <key key="contact:website" value="https://www.surfcoffee.ru/" />
@@ -679,6 +693,7 @@
         <combo key="opening_hours" text="Opening Hours" values="Mo-Su 10:00-22:00,Mo-Su 08:00-23:00" />
         <key key="amenity" value="cafe" />
         <key key="brand" value="Даблби" />
+        <key key="brand:wikidata" value="Q62501686" />
         <key key="contact:email" value="info@double-b.ru" />
         <key key="contact:facebook" value="https://www.facebook.com/DoubleBCoffeeTea" />
         <key key="contact:instagram" value="https://www.instagram.com/doublebcoffeetea" />
@@ -698,6 +713,8 @@
         <combo key="opening_hours" text="Opening Hours" values="24/7,Mo-Su 09:00-23:00,Mo-Su 10:00-23:00,Mo-Su 10:00-22:00" />
         <key key="amenity" value="fast_food" />
         <key key="brand" value="Додо Пицца" />
+        <key key="brand:wikidata" value="Q61949318" />
+        <key key="brand:wikipedia" value="ru:Додо Пицца" />
         <key key="contact:email" value="feedback@dodopizza.com" />
         <key key="contact:facebook" value="https://www.facebook.com/dodopizza/" />
         <key key="contact:instagram" value="https://www.instagram.com/dodopizza" />
@@ -741,6 +758,7 @@
         <combo key="opening_hours" text="Opening Hours" values="24/7,Mo-Su 08:00-23:00,Mo-Fr 07:00-23:00; Sa-Su 10:00-23:00" />
         <key key="amenity" value="cafe" />
         <key key="brand" value="Дринкит" />
+        <key key="brand:wikidata" value="Q139554667" />
         <key key="contact:instagram" value="https://www.instagram.com/drinkitcafe" />
         <key key="contact:telegram" value="https://t.me/drinkit_business" />
         <key key="contact:website" value="https://drinkit.ru" />
@@ -867,6 +885,7 @@
         <reference ref="oh3" />
         <key key="amenity" value="fast_food" />
         <key key="brand" value="Правда Кофе" />
+        <key key="brand:wikidata" value="Q139555237" />
         <key key="contact:facebook" value="https://www.facebook.com/pravdacoffee" />
         <key key="contact:instagram" value="https://www.instagram.com/pravda_coffee" />
         <key key="contact:vk" value="https://vk.com/pravda_coffee" />
@@ -888,14 +907,15 @@
         <combo key="opening_hours" text="Opening Hours" values="24/7,Mo-Su 08:00-23:00,Mo-Fr 08:00-23:00; Sa-Su 09:00-21:00" />
         <key key="amenity" value="fast_food" />
         <key key="brand" value="Робин Сдобин" />
+        <key key="brand:wikidata" value="Q62273880" />
         <key key="contact:email" value="info@robinsdobin.ru" />
         <key key="contact:instagram" value="https://www.instagram.com/robin_sdobin_vrn" />
         <key key="contact:phone" value="+7 800 5505560" />
         <key key="contact:vk" value="https://vk.com/robinsdobin_vrn" />
-        <key key="contact:website" value="https://sdobin.ru" />
+        <key key="contact:website" value="https://robinok.ru" />
         <key key="name" value="Робин Сдобин" />
         <key key="name:ru" value="Робин Сдобин" />
-        <link href="https://sdobin.ru" text="Official website (place locator)" ru.text="Ссылка на сайт (часы работы, координаты и т.п.)" />
+        <link href="https://robinok.ru" text="Official website (place locator)" ru.text="Ссылка на сайт (часы работы, координаты и т.п.)" />
         <reference ref="level_wheelchair_address_wifi_outdoorseating_drivethrough" />
       </item>
       <item name="Russian Appetite" ru.name="Русский Аппетит" type="node,closedway,multipolygon" preset_name_label="true">
@@ -905,15 +925,16 @@
         <reference ref="phone" />
         <combo key="opening_hours" text="Opening Hours" values="24/7,Mo-Su 08:00-23:00,Mo-Fr 08:00-23:00; Sa-Su 09:00-21:00" />
         <key key="brand" value="Русский Аппетит" />
+        <key key="brand:wikidata" value="Q62086063" />
         <key key="contact:facebook" value="https://www.facebook.com/Русский-Аппетит-1502979646622576" />
         <key key="contact:ok" value="https://ok.ru/profile/583525030934" />
         <key key="contact:twitter" value="https://twitter.com/rusappp" />
         <key key="contact:vk" value="https://vk.com/club10566241" />
-        <key key="contact:website" value="http://xn--80a4abej.xn--p1ai" />
+        <key key="contact:website" value="https://rusapp.ru" />
         <key key="diet:vegetarian" value="no" />
         <key key="name" value="Русский Аппетит" />
         <key key="name:ru" value="Русский Аппетит" />
-        <link href="http://xn--80a4abej.xn--p1ai/karta/" text="Official website (place locator)" ru.text="Ссылка на сайт (часы работы, координаты и т.п.)" />
+        <link href="https://rusapp.ru" text="Official website (place locator)" ru.text="Ссылка на сайт (часы работы, координаты и т.п.)" />
         <reference ref="level_wheelchair_address_wifi_outdoorseating_drivethrough" />
       </item>
       <item name="Stars Coffee" ru.name="Старс Кофе" type="node,closedway,multipolygon" preset_name_label="true">
@@ -922,6 +943,7 @@
         <combo key="opening_hours" text="Opening Hours" values="24/7,Mo-Su 08:00-23:00,Mo-Fr 07:00-23:00; Sa-Su 10:00-23:00" />
         <key key="amenity" value="cafe" />
         <key key="brand" value="Stars Coffee" />
+        <key key="brand:wikidata" value="Q117236699" />
         <key key="contact:email" value="info@stars-coffee.ru" />
         <key key="contact:instagram" value="https://www.instagram.com/starscoffee_official" />
         <key key="contact:vk" value="https://vk.com/starscoffee_official" />
@@ -983,6 +1005,8 @@
         <combo key="opening_hours" text="Opening Hours" values="24/7,Mo-Su 08:00-23:00,Mo-Fr 07:00-23:00; Sa-Su 10:00-23:00" />
         <key key="amenity" value="cafe" />
         <key key="brand" value="Шоколадница" />
+        <key key="brand:wikidata" value="Q30891188" />
+        <key key="brand:wikipedia" value="ru:Шоколадница (сеть кофеен)" />
         <key key="contact:facebook" value="https://www.facebook.com/shoko.ru" />
         <key key="contact:instagram" value="https://www.instagram.com/shoko.ru" />
         <key key="contact:ok" value="https://ok.ru/shokoru" />
@@ -1005,6 +1029,7 @@
         <combo key="opening_hours" text="Opening Hours" values="24/7,Mo-Su 10:00-06:00,Mo-Su 10:00-05:00; Mo-Su 11:00-06:00" />
         <key key="amenity" value="restaurant" />
         <key key="brand" value="Якитория" />
+        <key key="brand:wikidata" value="Q66088063" />
         <key key="contact:facebook" value="https://www.facebook.com/yakitoriyacafe" />
         <key key="contact:instagram" value="https://www.instagram.com/yakitoriyacafe" />
         <key key="contact:vk" value="https://vk.com/yakitoriyacafe" />
@@ -1149,6 +1174,8 @@
         <combo key="contact:phone" text="Phone number" values="+7 499 7550070,+7 812 60101000,+7 343 2372246,+7 843 5247545" default="+7 499 7550070" />
         <combo key="opening_hours" text="Opening Hours" values="24/7,Mo-Su 08:00-23:00,Mo-Su 09:00-22:00" />
         <key key="brand" value="Верный" />
+        <key key="brand:wikidata" value="Q110037370" />
+        <key key="brand:wikipedia" value="ru:Верный (сеть магазинов)" />
         <key key="contact:email" value="info@ivoin.ru" />
         <key key="contact:phone" value="+7 800 2506648" />
         <key key="contact:website" value="https://www.verno-info.ru" />
@@ -1162,6 +1189,8 @@
         <combo key="contact:phone" text="Phone number" default="+7 495 6638602" />
         <combo key="opening_hours" text="Opening Hours" values="24/7,Mo-Su 09:00-21:00,Mo-Fr 09:00-22:00; Sa-Su 10:00-21:00" />
         <key key="brand" value="ВкусВилл" />
+        <key key="brand:wikidata" value="Q57271676" />
+        <key key="brand:wikipedia" value="ru:Вкусвилл" />
         <key key="contact:email" value="info@izbenka.msk.ru" />
         <key key="contact:facebook" value="https://www.facebook.com/vkusvill.ru" />
         <key key="contact:instagram" value="https://www.instagram.com/vkusvill_ru" />
@@ -1180,6 +1209,7 @@
         <reference ref="shop_type" />
         <combo key="opening_hours" text="Opening Hours" values="24/7,Mo-Su 08:00-22:00,Mo-Fr 09:00-22:00; Sa-Su 10:00-21:00" />
         <key key="brand" value="ДА!" />
+        <key key="brand:wikidata" value="Q127829045" />
         <key key="contact:ok" value="https://ok.ru/group/53791378178175" />
         <key key="contact:phone" value="+7 495 6644042" />
         <key key="contact:telegram" value="https://t.me/marketda" />
@@ -1215,6 +1245,7 @@
         <combo key="contact:phone" text="Phone number" />
         <combo key="opening_hours" text="Opening Hours" values="24/7,Mo-Su 10:00-22:00,Mo-Fr 09:00-22:00; Sa-Su 10:00-21:00" />
         <key key="brand" value="Доброцен" />
+        <key key="brand:wikidata" value="Q136697017" />
         <key key="contact:instagram" value="https://www.instagram.com/dobrotsen.ru/" />
         <key key="contact:vk" value="https://vk.com/dobrotcensklad" />
         <key key="contact:website" value="https://доброцен.рф/" />
@@ -1302,6 +1333,7 @@
         <reference ref="phone" />
         <combo key="opening_hours" text="Opening Hours" values="24/7,Mo-Su 10:00-22:00,Mo-Fr 09:00-22:00; Sa-Su 10:00-21:00" />
         <key key="brand" value="Магнолия" />
+        <key key="brand:wikidata" value="Q134561836" />
         <key key="contact:email" value="magnolia@tcfoods.ru" />
         <key key="contact:website" value="http://www.mgnl.ru" />
         <key key="name" value="Магнолия" />
@@ -1314,6 +1346,8 @@
         <reference ref="shop_type" />
         <reference ref="oh3" />
         <key key="brand" value="Мария-Ра" />
+        <key key="brand:wikidata" value="Q4281631" />
+        <key key="brand:wikipedia" value="ru:Мария-Ра" />
         <key key="contact:email" value="ura@maria-ra.ru" />
         <key key="contact:facebook" value="https://www.facebook.com/mariarashop/" />
         <key key="contact:instagram" value="https://www.instagram.com/mariarashop/" />
@@ -1345,6 +1379,7 @@
         <space />
         <combo key="opening_hours" text="Opening Hours" values="Mo-Sa 09:00-21:00; Su 09:00-20:00" />
         <key key="brand" value="Мясницкий ряд" />
+        <key key="brand:wikidata" value="Q126737188" />
         <key key="contact:email" value="info2@kolbasa.ru" />
         <key key="contact:facebook" value="https://www.facebook.com/kolbasaMR" />
         <key key="contact:phone" value="+7 495 9811719" />
@@ -1399,8 +1434,6 @@
         <key key="brand" value="Перекрёсток" />
         <key key="brand:wikidata" value="Q1684639" />
         <key key="brand:wikipedia" value="ru:Перекрёсток (сеть магазинов)" />
-        <key key="contact:facebook" value="https://www.facebook.com/perekrestok" />
-        <key key="contact:instagram" value="https://www.instagram.com/perekrestok" />
         <key key="contact:ok" value="https://ok.ru/perekrestok.shop" />
         <key key="contact:twitter" value="https://twitter.com/perekrestok" />
         <key key="contact:vk" value="https://vk.com/perekrestok_shop" />
@@ -1424,7 +1457,7 @@
         <key key="contact:facebook" value="https://www.facebook.com/pyaterochka" />
         <key key="contact:ok" value="https://ok.ru/pyaterochka" />
         <key key="contact:phone" value="+7 800 5555505" />
-        <key key="contact:vk" value="https://vk.com/pyaterochka_shop" />
+        <key key="contact:vk" value="https://vk.com/pyaterochka" />
         <key key="contact:website" value="https://5ka.ru" />
         <key key="name" value="Пятёрочка" />
         <key key="name:ru" value="Пятёрочка" />
@@ -1436,6 +1469,8 @@
         <reference ref="shop_type" />
         <combo key="opening_hours" text="Opening Hours" values="24/7,Mo-Su 08:00-23:00,Mo-Sa 09:00-20:00; Su 10:00-19:00" default="Mo-Su 09:00-21:00" />
         <key key="brand" value="Светофор" />
+        <key key="brand:wikidata" value="Q61875920" />
+        <key key="brand:wikipedia" value="ru:Светофор (торговая сеть)" />
         <combo key="contact:phone" text="Phone number" />
         <key key="contact:vk" value="https://vk.com/svetofor.market" />
         <key key="contact:website" value="https://svetofor-nsk.ru/" />
@@ -1449,6 +1484,8 @@
         <combo key="contact:phone" text="Phone number" default="+7 499 7544444" />
         <combo key="opening_hours" text="Opening Hours" values="24/7,Mo-Su 10:00-23:00,Mo-Sa 09:00-20:00; Su 10:00-19:00" default="Mo-Su 10:00-23:00" />
         <key key="brand" value="Суши Wok" />
+        <key key="brand:wikidata" value="Q25444754" />
+        <key key="brand:wikipedia" value="ru:Суши Wok" />
         <key key="contact:facebook" value="https://www.facebook.com/sushiwokofficial" />
         <key key="contact:instagram" value="https://www.instagram.com/sushi_wok" />
         <key key="contact:ok" value="https://ok.ru/group/53844357873904" />
@@ -1480,6 +1517,7 @@
         <reference ref="shop_type" />
         <combo key="opening_hours" text="Opening Hours" values="24/7,Mo-Su 09:00-21:00,Mo-Su 10:00-22:00,Mo-Fr 09:00-22:00; Sa-Su 10:00-21:00" />
         <key key="brand" value="Чижик" />
+        <key key="brand:wikidata" value="Q124171414" />
         <key key="contact:ok" value="https://ok.ru/group/59102867030124" />
         <key key="contact:vk" value="https://vk.com/chizhik.club" />
         <key key="contact:website" value="https://chizhik.club/" />
@@ -1493,6 +1531,7 @@
         <space />
         <reference ref="phone" />
         <key key="brand" value="Ярче!" />
+        <key key="brand:wikidata" value="Q102254456" />
         <key key="contact:email" value="feedback@ya-retail.ru" />
         <key key="contact:facebook" value="https://www.facebook.com/Yarche.supermarket/" />
         <key key="contact:instagram" value="https://www.instagram.com/supermarket_yarche" />
@@ -1508,6 +1547,7 @@
         <space />
         <combo key="opening_hours" text="Opening Hours" values="24/7" />
         <key key="brand" value="Около" />
+        <key key="brand:wikidata" value="Q139555162" />
         <key key="contact:email" value="info@okolo.market" />
         <key key="contact:phone" value="+7 800 301-47-33" />
         <key key="contact:website" value="https://okolo.market" />
@@ -1547,6 +1587,7 @@
         <combo key="contact:phone" text="Phone number" default="+7 495 7775190-xxxx" />
         <reference ref="oh3" />
         <key key="brand" value="Ароматный мир" />
+        <key key="brand:wikidata" value="Q109852336" />
         <key key="contact:facebook" value="https://www.facebook.com/amwine.ru" />
         <key key="contact:instagram" value="https://www.instagram.com/amwine.ru" />
         <key key="contact:telegram" value="https://t.me/amwineru" />
@@ -1573,6 +1614,8 @@
         <combo key="contact:phone" text="Phone number" default="+7 800 7071555" />
         <reference ref="oh3" />
         <key key="brand" value="Бристоль" />
+        <key key="brand:wikidata" value="Q59155583" />
+        <key key="brand:wikipedia" value="ru:Бристоль (сеть магазинов)" />
         <key key="contact:facebook" value="https://www.facebook.com/bristolretail" />
         <key key="contact:instagram" value="https://www.instagram.com/bristol_retail" />
         <key key="contact:vk" value="https://vk.com/bristol_retail" />
@@ -1597,6 +1640,7 @@
         <combo key="contact:phone" text="Phone number" default="+7 800 3017755" />
         <reference ref="oh3" />
         <key key="brand" value="Винлаб" />
+        <key key="brand:wikidata" value="Q109907753" />
         <key key="contact:facebook" value="https://www.facebook.com/winelabru" />
         <key key="contact:instagram" value="https://www.instagram.com/winelab.ru" />
         <key key="contact:phone" value="+7 800 3017755" />
@@ -1844,6 +1888,8 @@
         <reference ref="phone" />
         <combo key="opening_hours" text="Opening Hours" values="24/7,Mo-Su 09:00-21:00,Mo-Fr 09:00-20:00; Sa-Su 10:00-20:00" default="Mo-Su 09:00-21:00" />
         <key key="brand" value="Ситилинк" />
+        <key key="brand:wikidata" value="Q16698091" />
+        <key key="brand:wikipedia" value="ru:Ситилинк" />
         <key key="contact:instagram" value="https://www.instagram.com/citilink_ru/" />
         <key key="contact:vk" value="https://vk.com/citilink_ru" />
         <key key="contact:facebook" value="https://www.facebook.com/citilink.ru" />
@@ -1885,6 +1931,7 @@
         <reference ref="oh3" />
         <combo key="contact:phone" text="Phone number" values="+7 800 2228000" />
         <key key="brand" value="Boxberry" />
+        <key key="brand:wikidata" value="Q126915345" />
         <key key="contact:facebook" value="https://www.facebook.com/boxberry.ru" />
         <key key="contact:instagram" value="https://www.instagram.com/boxberryclub" />
         <key key="contact:vk" value="https://vk.com/club80315656" />
@@ -1956,8 +2003,6 @@
         <key key="contact:facebook" value="https://www.facebook.com/wbbot" />
         <key key="contact:instagram" value="https://www.instagram.com/wildberriesru" />
         <key key="contact:ok" value="https://ok.ru/wildberries" />
-        <!-- <key key="contact:skype" value="wildberries.wb" /> -->
-        <key key="contact:skype" value="Wildberries_ru" />
         <key key="contact:telegram" value="wbshop_bot" />
         <key key="contact:twitter" value="https://twitter.com/wildberries_ru" />
         <key key="contact:viber" value="wildberries" />
@@ -2098,6 +2143,8 @@
         <reference ref="oh3" />
         <text key="ref" text="Reference" ru.text="Номер постамата" />
         <key key="brand" value="Утконос" />
+        <key key="brand:wikidata" value="Q4478920" />
+        <key key="brand:wikipedia" value="ru:Утконос Онлайн" />
         <key key="contact:phone" value="+7 495 7775444" />
         <key key="contact:website" value="https://www.utkonos.ru" />
         <key key="name" value="Утконос" />
@@ -2434,6 +2481,7 @@
         <combo key="contact:phone" text="Phone number" values="+7 800 2503344-xxxx" default="+7 800 2503344" />
         <combo key="opening_hours" text="Opening Hours" values="Mo-Su 10:00-22:00,Mo-Su 09:00-21:00" />
         <key key="brand" value="Адамас" />
+        <key key="brand:wikidata" value="Q62393709" />
         <key key="contact:email" value="office@adamas.ru" />
         <key key="contact:facebook" value="https://www.facebook.com/adamas.club" />
         <key key="contact:instagram" value="https://www.instagram.com/adamas_ru" />
@@ -2468,6 +2516,7 @@
         <combo key="contact:phone" text="Phone number" default="+7 800 2500025" />
         <key key="shop" value="hardware" />
         <key key="brand" value="Галамарт" />
+        <key key="brand:wikidata" value="Q109852014" />
         <key key="contact:email" value="info@galamart.ru" />
         <key key="contact:website" value="https://galamart.ru/" />
         <key key="contact:youtube" value="https://www.youtube.com/channel/UCUypd9qxKCCh2h7DeJfRXvQ" />
@@ -2506,6 +2555,7 @@
         <combo key="contact:phone" text="Phone number" default="+7 800 2008227" />
         <combo key="opening_hours" text="Opening Hours" values="24/7,Mo-Su 10:00-22:00,Mo-Fr 10:00-20:00; Sa-Su 10:00-18:00" />
         <key key="brand" value="Диана" />
+        <key key="brand:wikidata" value="Q62105088" />
         <key key="contact:email" value="diana@dryclean.ru" />
         <key key="contact:facebook" value="https://www.facebook.com/diana.dryclean" />
         <key key="contact:instagram" value="https://www.instagram.com/dryclean.ru" />
@@ -2522,6 +2572,7 @@
         <combo key="contact:phone" text="Phone number" default="+7 800 1000005" />
         <combo key="opening_hours" text="Opening Hours" values="24/7,Mo-Su 10:00-22:00,Mo-Fr 08:00-22:00; Sa-Su 09:00-21:00" />
         <key key="brand" value="Иль де Ботэ" />
+        <key key="brand:wikidata" value="Q28942839" />
         <key key="contact:telegram" value="https://t.me/iledebeaute_ru" />
         <key key="contact:vk" value="https://vk.com/iledebeaute" />
         <key key="contact:website" value="https://iledebeaute.ru" />
@@ -2598,6 +2649,8 @@
         <space />
         <combo key="opening_hours" text="Opening Hours" values="24/7,Mo-Su 10:00-22:00,Mo-Fr 08:00-22:00; Sa-Su 09:00-21:00" />
         <key key="brand" value="Московский ювелирный завод" />
+        <key key="brand:wikidata" value="Q125181586" />
+        <key key="brand:wikipedia" value="ru:Московский ювелирный завод" />
         <key key="contact:email" value="client@miuz.ru" />
         <key key="contact:facebook" value="https://www.facebook.com/miuz.ru" />
         <key key="contact:instagram" value="https://www.instagram.com/miuz_ru" />
@@ -2632,7 +2685,9 @@
         <reference ref="phone" />
         <combo key="opening_hours" text="Opening Hours" values="24/7,Mo-Su 10:00-22:00,Mo-Fr 08:00-22:00; Sa-Su 09:00-21:00" />
         <key key="brand" value="Персона" />
-        <!-- <key key="contact:facebook" value="https://www.facebook.com/ipersona" /> NB: указан на официальном сайте, но в фб такой страницы нет -->
+        <key key="brand:wikidata" value="Q126163981" />
+        <key key="contact:facebook" value="https://www.facebook.com/agencypersona" />
+        <key key="contact:instagram" value="https://www.instagram.com/persona.original" />
         <key key="contact:twitter" value="https://twitter.com/Persona_PR" />
         <key key="contact:vk" value="https://vk.com/lab_persona" />
         <key key="contact:website" value="https://persona.ru" />
@@ -2646,6 +2701,7 @@
         <space />
         <combo key="opening_hours" text="Opening Hours" values="Mo-Su 10:00-22:00,Mo-Su 09:00-21:00" default="Mo-Su 09:00-21:00" />
         <key key="brand" value="Подружка" />
+        <key key="brand:wikidata" value="Q101646588" />
         <key key="contact:email" value="secretary@taber.ru" />
         <key key="contact:facebook" value="https://www.facebook.com/podrygkashop" />
         <key key="contact:instagram" value="https://www.instagram.com/podrygkashop" />
@@ -2662,7 +2718,6 @@
       <item name="Smeshnie Tseni" ru.name="Смешные цены" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <key key="brand" value="Смешные цены" />
-        <!-- <key key="contact:website" value="http://smeshnyeceny.ru" /> NOTE: старый сайт, но всё ещё рабочий -->
         <key key="contact:website" value="https://smeshnie-ceny.ru" />
         <key key="name" value="Смешные цены" />
         <key key="name:ru" value="Смешные цены" />
@@ -2674,6 +2729,8 @@
         <space />
         <combo key="opening_hours" text="Opening Hours" values="24/7,Mo-Su 10:00-22:00,Mo-Su 10:00-20:00" />
         <key key="brand" value="Спортмастер" />
+        <key key="brand:wikidata" value="Q4438176" />
+        <key key="brand:wikipedia" value="ru:Спортмастер" />
         <key key="contact:email" value="e-commerce@sportmaster.ru" />
         <key key="contact:facebook" value="https://www.facebook.com/sportmaster.ru" />
         <key key="contact:instagram" value="https://www.instagram.com/sportmaster_official" />
@@ -2699,6 +2756,7 @@
         <combo key="opening_hours" text="Opening Hours" values="Mo-Su 10:00-22:00,Mo-Su 10:00-23:00,Mo-Su 09:00-21:00,Mo-Su 09:00-22:00" />
         <key key="alt_name" value="Твое" />
         <key key="brand" value="ТВОЁ" />
+        <key key="brand:wikidata" value="Q110034939" />
         <key key="contact:email" value="help@tvoe.ru" />
         <key key="contact:facebook" value="https://www.facebook.com/odezda.tvoe" />
         <key key="contact:instagram" value="https://www.instagram.com/tvoe_official" />
@@ -2718,6 +2776,7 @@
         <combo key="contact:phone" text="Phone number" default="+7 800 3336600" />
         <combo key="opening_hours" text="Opening Hours" values="Mo-Su 10:00-20:00,Mo-Su 10:00-22:00,Mo-Su 09:00-20:00,Mo-Su 09:00-21:00" />
         <key key="brand" value="Улыбка радуги" />
+        <key key="brand:wikidata" value="Q109734104" />
         <key key="contact:instagram" value="https://www.instagram.com/ulybkaradugi" />
         <key key="contact:vk" value="https://vk.com/ulybka_radugi" />
         <key key="contact:website" value="https://www.r-ulybka.ru" />
@@ -2887,6 +2946,7 @@
         <combo key="opening_hours" text="Opening Hours" values="24/7,Mo-Su 09:00-21:00,Mo-Fr 10:00-21:00; Sa-Su 10:00-20:00,Mo-Th 09:00-13:00\,13:45-17:00; Fr 09:00-13:00\,13:45-15:45" />
         <key key="amenity" value="public_service" />
         <key key="brand" value="Мои документы" />
+        <key key="brand:wikidata" value="Q57449742" />
         <key key="government" value="public_service" />
         <key key="office" value="government" />
         <key key="short_name" value="МФЦ" />
@@ -3489,6 +3549,7 @@
         <key key="amenity" value="vending_machine" />
         <key key="vending" value="water" />
         <key key="brand" value="Живая вода" />
+        <key key="brand:wikidata" value="Q125924184" />
         <key key="contact:website" value="https://alivewater.ru/" />
         <key key="opening_hours" value="24/7" />
         <key key="name" value="Живая вода" />
