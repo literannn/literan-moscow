@@ -578,25 +578,23 @@
         <link href="https://www.kfc.ru/restaurants" text="Official website (place locator)" ru.text="Ссылка на сайт (часы работы, координаты и т.п.)" />
         <reference ref="level_wheelchair_address_wifi_outdoorseating_drivethrough" />
       </item>
-      <item name="Pizza Hut" type="node,closedway,multipolygon" preset_name_label="true">
+      <item name="Pizza Heart" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="opening_hours" text="Opening Hours" values="Mo-Su 10:00-23:00,Mo-Su 10:00-22:00,Mo-Su 11:00-23:00,Mo-Su 09:00-23:00" default="Mo-Su 10:00-23:00" />
         <key key="amenity" value="fast_food" />
-        <key key="brand" value="Pizza Hut" />
-        <key key="brand:wikidata" value="Q191615" />
-        <key key="brand:wikipedia" value="ru:Пицца Хат" />
-        <key key="contact:email" value="info@pizzahut.ru" />
+        <key key="brand" value="Pizza Heart" />        
         <key key="contact:facebook" value="https://www.facebook.com/PizzaHutRussia" />
         <key key="contact:instagram" value="https://www.instagram.com/pizzahutrussia" />
-        <key key="contact:phone" value="+7 800 1001958" />
+        <key key="contact:phone" value="+7 800 2225509" />
         <key key="contact:vk" value="https://vk.com/pizzahutrussia" />
-        <key key="contact:website" value="https://pizzahut.ru" />
+        <key key="contact:website" value="https://pizzahut.ru" />        
         <key key="cuisine" value="pizza" />
         <key key="delivery" value="yes" />
         <key key="diet:vegetarian" value="no" />
-        <key key="name" value="Pizza Hut" />
-        <key key="name:en" value="Pizza Hut" />
-        <link href="https://pizzahut.ru/#!/contacts" text="Official website (place locator)" ru.text="Ссылка на сайт (часы работы, координаты и т.п.)" />
+        <key key="name" value="Pizza Heart" />
+        <key key="name:en" value="Pizza Heart" />
+        <key key="name:ru" value="Пицца Харт" />
+        <link href="https://pizzahut.ru/information/zony" text="Official website (place locator)" ru.text="Ссылка на сайт (часы работы, координаты и т.п.)" />
         <reference ref="level_wheelchair_address_wifi_outdoorseating_drivethrough" />
       </item>
       <item name="Rostic's" type="node,closedway,multipolygon" preset_name_label="true">
