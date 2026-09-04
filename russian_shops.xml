@@ -1159,23 +1159,6 @@
         <link href="https://www.verno-info.ru/shops" text="Official website (place locator)" ru.text="Ссылка на сайт (часы работы, координаты и т.п.)" />
         <reference ref="wheelchair_address" />
       </item>
-      <item name="Victoria" ru.name="Виктория" type="node,closedway,multipolygon" preset_name_label="true">
-        <space />
-        <combo key="contact:phone" text="Phone number" default="+7 800 2004454" />
-        <combo key="opening_hours" text="Opening Hours" values="24/7,Mo-Su 08:00-24:00,Mo-Su 08:00-01:00,Mo-Su 08:00-23:00,Mo-Su 06:00-02:00" />
-        <key key="brand" value="Виктория" />
-        <key key="brand:wikidata" value="Q4111046" />
-        <key key="brand:wikipedia" value="ru:Виктория (сеть магазинов)" />
-        <key key="contact:facebook" value="https://www.facebook.com/SupermarketVictoria" />
-        <key key="contact:instagram" value="https://www.instagram.com/my_victoria24" />
-        <key key="contact:vk" value="https://vk.com/supermarket_victoria" />
-        <key key="contact:website" value="https://victoria-group.ru" />
-        <key key="name" value="Виктория" />
-        <key key="name:ru" value="Виктория" />
-        <key key="shop" value="supermarket" />
-        <link href="https://victoria-group.ru/company/shops/moskva-i-moskovskaya-oblast/" text="Official website (place locator)" ru.text="Ссылка на сайт (часы работы, координаты и т.п.)" />
-        <reference ref="wheelchair_address" />
-      </item>
       <item name="VkusWill" ru.name="ВкусВилл" type="node,closedway,multipolygon" preset_name_label="true">
         <space />
         <combo key="contact:phone" text="Phone number" default="+7 495 6638602" />
